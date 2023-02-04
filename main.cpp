@@ -95,6 +95,7 @@ void det ::display3x3()
 int main()
 {
     system("cls");
+    cout << "------------------- Determinant Calculator ------------------- ";
     int usr;
     cout << "\nEnter '2' for 2x2 Determinant " << setw(2) << "else '3' for 3x3 determinant = ";
     cin >> usr;
