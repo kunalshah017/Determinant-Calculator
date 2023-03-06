@@ -165,7 +165,7 @@ int main()
     cout << "------------------- Determinant Calculator ------------------- ";
     int usr;
     char usr1;
-    cout << "\nEnter '2' for 2x2 Determinant " << setw(2) << "else '3' for 3x3 determinant = ";
+    cout << "\n\nEnter '2' for 2x2 Determinant " << setw(2) << "else '3' for 3x3 determinant = ";
     cin >> usr;
 
     det obj;
@@ -260,5 +260,6 @@ int main()
     cout << "\n\nThank You for Trying it :)" << endl;
     cout << "Follow me on GitHub : github.com/kunalshah017\n\n";
 
+    system("pause");
     return 0;
 }
